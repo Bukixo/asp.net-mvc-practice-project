@@ -5,16 +5,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using DutchTreat.ViewModels;
 using DutchTreat.Services;
+using DutchTreat.Data;
 
 namespace DutchTreat.Controllers
 {
     public class AppController : Controller
     {
         private IMailService _mailService;
+        private DutchContext _context;
 
-        public AppController(IMailService mailService)
+        public AppController(IMailService mailService, DutchContext context)
         {
             _mailService = mailService;
+            _context = context;
         }
         public IActionResult Index()
         {
@@ -45,6 +48,14 @@ namespace DutchTreat.Controllers
             ViewBag.Title = "About Us";
 
             return View();
+        }
+
+        public IActionResult Shop()
+        {
+            var results = from product in _context.Products
+                          orderby product.Category
+                          select product;
+            return View(results.ToList());
         }
 
     }

@@ -147,4 +147,4 @@ C:\Users\BukolaThompson\Documents\projects\ASP.NET MVC Project\DutchTreat\bin\De
 C:\Users\BukolaThompson\Documents\projects\ASP.NET MVC Project\DutchTreat\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\BukolaThompson\Documents\projects\ASP.NET MVC Project\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\BukolaThompson\Documents\projects\ASP.NET MVC Project\DutchTreat\bin\Debug\netcoreapp3.1\config.json
-C:\Users\BukolaThompson\Documents\projects\ASP.NET MVC Project\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.csproj.CoreCompileInputs.cache
+C:\Users\BukolaThompson\Documents\projects\ASP.NET MVC Project\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\App\Shop.cshtml.g.cs
