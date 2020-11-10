@@ -27,6 +27,7 @@ namespace DutchTreat
             }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<DutchSeeder>();
             services.AddTransient<IMailService, NullMailService>();
             services.AddMvc();
             services.AddDbContext<DutchContext>(cfg => 
